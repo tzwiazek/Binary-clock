@@ -1,0 +1,41 @@
+html, body {
+   margin:0;
+   padding:0;
+}
+*, *:before, *:after {box-sizing: border-box;}
+.container {
+   width:770px;
+   height:360px;
+   background:aqua;
+   margin:auto;
+   margin-top:10%;
+}
+.container-table {
+   height:360px;
+   width:200px;
+   background:yellow;
+   opacity:0.5;
+   float:right;
+}
+.box {
+   width:190px;
+   height:360px;
+   float:left;
+   border:2px solid;
+}
+.circle {
+   width:50px;
+   height:50px;
+   border-radius:100%;
+   border:2px solid;
+   margin:20px;
+   float:left;
+}
+.light {background:red;}
+.container-table-description > h1{
+   text-align:center;
+   font-size:55px;
+   margin:0;
+   padding-top:12px;
+   padding-bottom:18px;
+}
