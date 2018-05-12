@@ -67,4 +67,3 @@ function light(x, y) {
 }
 
 set_clock();
-light(x, y);
